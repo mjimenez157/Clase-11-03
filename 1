@@ -1,0 +1,22 @@
+class Personaje:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        self.nivel = 1
+        self.energia = 100
+        
+        def atacar(self):
+            self.energia -= 10
+            print(f"{self.nombre} ha atacado. energia restante: {self.energia}")
+            
+        def descansar(self):
+            self.energia = 100
+            print(f"{self.nombre} ha descansado. energia restaurada")
+            
+        def subir_nivel(self):
+            self.energia = 100
+            print(f"{self.nombre} ha descansado. energia restaurada")
+            
+        def mostrar_estado(self):
+            self.energia = 100
+            print(f"{self.nombre} ha descansado. energia restaurada")
+            
