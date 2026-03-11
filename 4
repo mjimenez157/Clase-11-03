@@ -1,0 +1,11 @@
+class Persona:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        
+        #herencia:                    #super:clase padre
+class Estudiante(Persona):
+    def __init__(self, nombre, carrera):
+        super().__init__(nombre)
+        self.carrera = carrera
+
+        quiz: herencia-modularidad....
